@@ -1,0 +1,86 @@
+/*
+ * fixed ratio {{{
+ */
+[class^=ratio] {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.ratio-11 { padding-top: 100% !important; }
+.ratio-43 { padding-top: 75% !important; }
+.ratio-32 { padding-top: 66.66% !important; }
+.ratio-169 { padding-top: 56.25% !important; }
+.ratio-21 { padding-top: 50% !important; }
+.ratio-219 { padding-top: 42.85% !important; }
+.ratio-31 { padding-top: 33.33% !important; }
+.ratio-3610 { padding-top: 27.77% !important; }
+.ratio-41 { padding-top: 25% !important; }
+
+[class^=ratio] > * {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+}
+
+[class^=ratio] img {
+	width: 100%; height: 100%;
+	object-fit: cover;
+}
+/*
+ * }}}
+ */
+
+/* Box */
+.mh-50px { max-height: 50px !important; }
+
+/* Grid */
+.mx--5px { margin-left: -5px !important; margin-right: -5px !important; }
+.row.mx--5px > [class^=col] { padding: 5px !important; }
+
+.mx--10px { margin-left: -10px !important; margin-right: -10px !important; }
+.row.mx--10px > [class^=col] { padding: 10px !important; }
+
+.row > [class^=col] { padding: 15px !important; }
+
+.p-5px { padding: 5px !important; }
+.pt-5px { padding-top: 5px !important; }
+
+.p-10px { padding: 10px !important; }
+.pt-10px { padding-top: 10px !important; }
+
+/*.mx--15px { .row default }*/
+.p-15px { padding: 15px !important; }
+/* --- */
+
+
+/*
+ * font {{{
+ */
+.font-size-xs { font-size: 50% !important; }
+.font-size-sm { font-size: 75% !important; }
+.font-size-lg { font-size: 125% !important; }
+.font-size-xl { font-size: 150% !important; }
+.font-size-2x { font-size: 200% !important; }
+.font-size-3x { font-size: 300% !important; }
+/*
+ * }}}
+ */
+
+/* Misc */
+.object-fit-cover { object-fit: cover; }
+
+/* Width */
+.w-70 { width: 70% !important; }
+.w-60 { width: 60% !important; }
+.w-50 { width: 50% !important; }
+.w-40 { width: 40% !important; }
+.w-30 { width: 30% !important; }
+.w-20 { width: 20% !important; }
+
+/* Tables */
+.table-layout-fixed { table-layout: fixed !important; }
+.table td { vertical-align: middle !important; }
+
+
+
