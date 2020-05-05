@@ -35,13 +35,13 @@
 .mh-50px { max-height: 50px !important; }
 
 /* Grid */
-.mx--5px { margin-left: -5px !important; margin-right: -5px !important; }
-.row.mx--5px > [class^=col] { padding: 5px !important; }
+.row.spacing-xs { margin-left: -5px !important; margin-right: -5px !important; }
+.row.spacing-sm { margin-left: -10px !important; margin-right: -10px !important; }
+/* .row.spacing-md { margin-left: -15px !important; margin-right: -15px !important; } */
+.row.spacing-xs > [class^=col] { padding: 5px !important; }
+.row.spacing-sm > [class^=col] { padding: 10px !important; }
+/* .row.spacing-md > [class^=col] { padding: 15px !important; } */
 
-.mx--10px { margin-left: -10px !important; margin-right: -10px !important; }
-.row.mx--10px > [class^=col] { padding: 10px !important; }
-
-.row > [class^=col] { padding: 15px !important; }
 
 .p-5px { padding: 5px !important; }
 .pt-5px { padding-top: 5px !important; }
@@ -57,12 +57,19 @@
 /*
  * font {{{
  */
-.font-size-xs { font-size: 50% !important; }
-.font-size-sm { font-size: 75% !important; }
-.font-size-lg { font-size: 125% !important; }
-.font-size-xl { font-size: 150% !important; }
-.font-size-2x { font-size: 200% !important; }
-.font-size-3x { font-size: 300% !important; }
+.font-size-50  { font-size: 50% !important; }
+.font-size-75  { font-size: 75% !important; }
+.font-size-125 { font-size: 125% !important; }
+.font-size-150 { font-size: 150% !important; }
+.font-size-200 { font-size: 200% !important; }
+.font-size-300 { font-size: 300% !important; }
+
+.font-size-xs { font-size:  .5em !important; }
+.font-size-sm { font-size:  .75em !important; }
+.font-size-lg { font-size: 1.25em !important; }
+.font-size-xl { font-size: 1.5em !important; }
+.font-size-2x { font-size: 2em !important; }
+.font-size-3x { font-size: 3em !important; }
 /*
  * }}}
  */
